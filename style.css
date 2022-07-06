@@ -1,0 +1,38 @@
+body
+{
+    background-color: gold;
+}
+
+h1
+{
+    color:antiquewhite;
+    background-color: darkgoldenrod;
+    padding: 5px;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius:20px;
+    animation-name: BoxShadow;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes BoxShadow {
+    from {box-shadow: 1px 1px 38px gray;}
+    to {box-shadow: 1px 1px 38px whitesmoke;}
+    
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
